@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "51973029671",
+    "project_id": "hw-colletion",
+    "storage_bucket": "hw-colletion.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51973029671:android:82b7acdd3b53a69f9e3302",
+        "android_client_info": {
+          "package_name": "br.com.mouradsm.hw_colletion"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51973029671-s4fpugfbv6rf4ugpcshrlfo19609t2d1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCoUhxZppREDEn2RUhsKVbh7BgiGCz6-b8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51973029671-s4fpugfbv6rf4ugpcshrlfo19609t2d1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
