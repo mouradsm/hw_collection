@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
+import 'package:hw_colletion/pages/dashboard/dashboard_page.dart';
 import 'package:hw_colletion/util/colors.dart';
-import 'package:hw_colletion/view/pages/home_page.dart';
+import 'package:hw_colletion/view/widgets/border_textfield.dart';
+
 
 import '../../../controller/auth_controller.dart';
-import '../../widgets/border_textfield.dart';
+
 
 
 class LoginPage extends StatelessWidget {
@@ -83,7 +85,7 @@ class LoginPage extends StatelessWidget {
                   Center(
                     child: GestureDetector(
                       onTap: () async {
-                        await authController.signIn() ? Get.offAll(HomePage()) :
+                        await authController.signIn() ? Get.offAll(const DashboardPage()) :
                             Get.snackbar("Cagou", "Deu Zebra!");
 
                       },
